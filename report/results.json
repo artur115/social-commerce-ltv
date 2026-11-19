@@ -1,0 +1,35 @@
+{
+  "events": 552628,
+  "events_after_dedup": 544461,
+  "buyers_with_180d": 13512,
+  "ltv_180d_fast_second_order": 161.2706928519151,
+  "ltv_180d_other": 47.0533953043663,
+  "model": {
+    "train_buyers": 10710,
+    "test_buyers": 2802,
+    "mae_model": 29.188224054575084,
+    "mae_channel_avg": 60.31785980413322,
+    "top10_capture_model": 0.2925711405851603,
+    "top10_capture_channel_avg": 0.1486495484828928
+  },
+  "experiment": {
+    "buyers_control": 2015,
+    "buyers_treatment": 2044,
+    "mean_control": 71.1121935483871,
+    "mean_treatment": 76.64694227005872,
+    "lift_abs": 4.367592001583475,
+    "lift_pct": 0.06141832762635314,
+    "raw_lift_abs": 5.534748721671619,
+    "ci95_cuped": [
+      0.03767774933141548,
+      8.81722309534213
+    ],
+    "ci95_raw": [
+      0.762136888029126,
+      10.278783475268677
+    ],
+    "p_value": 0.048716220371370196,
+    "repeat_30d_control": 0.2823821339950372,
+    "repeat_30d_treatment": 0.36056751467710374
+  }
+}
